@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA393631D65A52200C1DE8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA393621D65A52200C1DE8C /* main.m */; };
+		FDA393661D65A52200C1DE8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA393651D65A52200C1DE8C /* AppDelegate.m */; };
+		FDA393691D65A52200C1DE8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA393681D65A52200C1DE8C /* ViewController.m */; };
+		FDA3936C1D65A52200C1DE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA3936A1D65A52200C1DE8C /* Main.storyboard */; };
+		FDA3936E1D65A52200C1DE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA3936D1D65A52200C1DE8C /* Assets.xcassets */; };
+		FDA393711D65A52200C1DE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA3936F1D65A52200C1DE8C /* LaunchScreen.storyboard */; };
+		FDA3937C1D65A52200C1DE8C /* ______demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA3937B1D65A52200C1DE8C /* ______demoTests.m */; };
+		FDA393871D65A52200C1DE8C /* ______demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA393861D65A52200C1DE8C /* ______demoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA393781D65A52200C1DE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA393561D65A52200C1DE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA3935D1D65A52200C1DE8C;
+			remoteInfo = "海通栏目编辑demo";
+		};
+		FDA393831D65A52200C1DE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA393561D65A52200C1DE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA3935D1D65A52200C1DE8C;
+			remoteInfo = "海通栏目编辑demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA3935E1D65A52200C1DE8C /* 海通栏目编辑demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "海通栏目编辑demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA393621D65A52200C1DE8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA393641D65A52200C1DE8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA393651D65A52200C1DE8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA393671D65A52200C1DE8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDA393681D65A52200C1DE8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDA3936B1D65A52200C1DE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA3936D1D65A52200C1DE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA393701D65A52200C1DE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA393721D65A52200C1DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA393771D65A52200C1DE8C /* 海通栏目编辑demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "海通栏目编辑demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA3937B1D65A52200C1DE8C /* ______demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______demoTests.m"; sourceTree = "<group>"; };
+		FDA3937D1D65A52200C1DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA393821D65A52200C1DE8C /* 海通栏目编辑demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "海通栏目编辑demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA393861D65A52200C1DE8C /* ______demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______demoUITests.m"; sourceTree = "<group>"; };
+		FDA393881D65A52200C1DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA3935B1D65A52200C1DE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA393741D65A52200C1DE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA3937F1D65A52200C1DE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA393551D65A52200C1DE8C = {
+			isa = PBXGroup;
+			children = (
+				FDA393601D65A52200C1DE8C /* 海通栏目编辑demo */,
+				FDA3937A1D65A52200C1DE8C /* 海通栏目编辑demoTests */,
+				FDA393851D65A52200C1DE8C /* 海通栏目编辑demoUITests */,
+				FDA3935F1D65A52200C1DE8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA3935F1D65A52200C1DE8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3935E1D65A52200C1DE8C /* 海通栏目编辑demo.app */,
+				FDA393771D65A52200C1DE8C /* 海通栏目编辑demoTests.xctest */,
+				FDA393821D65A52200C1DE8C /* 海通栏目编辑demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA393601D65A52200C1DE8C /* 海通栏目编辑demo */ = {
+			isa = PBXGroup;
+			children = (
+				FDA393641D65A52200C1DE8C /* AppDelegate.h */,
+				FDA393651D65A52200C1DE8C /* AppDelegate.m */,
+				FDA393671D65A52200C1DE8C /* ViewController.h */,
+				FDA393681D65A52200C1DE8C /* ViewController.m */,
+				FDA3936A1D65A52200C1DE8C /* Main.storyboard */,
+				FDA3936D1D65A52200C1DE8C /* Assets.xcassets */,
+				FDA3936F1D65A52200C1DE8C /* LaunchScreen.storyboard */,
+				FDA393721D65A52200C1DE8C /* Info.plist */,
+				FDA393611D65A52200C1DE8C /* Supporting Files */,
+			);
+			path = "海通栏目编辑demo";
+			sourceTree = "<group>";
+		};
+		FDA393611D65A52200C1DE8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA393621D65A52200C1DE8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA3937A1D65A52200C1DE8C /* 海通栏目编辑demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3937B1D65A52200C1DE8C /* ______demoTests.m */,
+				FDA3937D1D65A52200C1DE8C /* Info.plist */,
+			);
+			path = "海通栏目编辑demoTests";
+			sourceTree = "<group>";
+		};
+		FDA393851D65A52200C1DE8C /* 海通栏目编辑demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA393861D65A52200C1DE8C /* ______demoUITests.m */,
+				FDA393881D65A52200C1DE8C /* Info.plist */,
+			);
+			path = "海通栏目编辑demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA3935D1D65A52200C1DE8C /* 海通栏目编辑demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA3938B1D65A52200C1DE8C /* Build configuration list for PBXNativeTarget "海通栏目编辑demo" */;
+			buildPhases = (
+				FDA3935A1D65A52200C1DE8C /* Sources */,
+				FDA3935B1D65A52200C1DE8C /* Frameworks */,
+				FDA3935C1D65A52200C1DE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "海通栏目编辑demo";
+			productName = "海通栏目编辑demo";
+			productReference = FDA3935E1D65A52200C1DE8C /* 海通栏目编辑demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA393761D65A52200C1DE8C /* 海通栏目编辑demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA3938E1D65A52200C1DE8C /* Build configuration list for PBXNativeTarget "海通栏目编辑demoTests" */;
+			buildPhases = (
+				FDA393731D65A52200C1DE8C /* Sources */,
+				FDA393741D65A52200C1DE8C /* Frameworks */,
+				FDA393751D65A52200C1DE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA393791D65A52200C1DE8C /* PBXTargetDependency */,
+			);
+			name = "海通栏目编辑demoTests";
+			productName = "海通栏目编辑demoTests";
+			productReference = FDA393771D65A52200C1DE8C /* 海通栏目编辑demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA393811D65A52200C1DE8C /* 海通栏目编辑demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA393911D65A52200C1DE8C /* Build configuration list for PBXNativeTarget "海通栏目编辑demoUITests" */;
+			buildPhases = (
+				FDA3937E1D65A52200C1DE8C /* Sources */,
+				FDA3937F1D65A52200C1DE8C /* Frameworks */,
+				FDA393801D65A52200C1DE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA393841D65A52200C1DE8C /* PBXTargetDependency */,
+			);
+			name = "海通栏目编辑demoUITests";
+			productName = "海通栏目编辑demoUITests";
+			productReference = FDA393821D65A52200C1DE8C /* 海通栏目编辑demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA393561D65A52200C1DE8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shadow;
+				TargetAttributes = {
+					FDA3935D1D65A52200C1DE8C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FDA393761D65A52200C1DE8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FDA3935D1D65A52200C1DE8C;
+					};
+					FDA393811D65A52200C1DE8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FDA3935D1D65A52200C1DE8C;
+					};
+				};
+			};
+			buildConfigurationList = FDA393591D65A52200C1DE8C /* Build configuration list for PBXProject "海通栏目编辑demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA393551D65A52200C1DE8C;
+			productRefGroup = FDA3935F1D65A52200C1DE8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA3935D1D65A52200C1DE8C /* 海通栏目编辑demo */,
+				FDA393761D65A52200C1DE8C /* 海通栏目编辑demoTests */,
+				FDA393811D65A52200C1DE8C /* 海通栏目编辑demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA3935C1D65A52200C1DE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA393711D65A52200C1DE8C /* LaunchScreen.storyboard in Resources */,
+				FDA3936E1D65A52200C1DE8C /* Assets.xcassets in Resources */,
+				FDA3936C1D65A52200C1DE8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA393751D65A52200C1DE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA393801D65A52200C1DE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA3935A1D65A52200C1DE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA393691D65A52200C1DE8C /* ViewController.m in Sources */,
+				FDA393661D65A52200C1DE8C /* AppDelegate.m in Sources */,
+				FDA393631D65A52200C1DE8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA393731D65A52200C1DE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA3937C1D65A52200C1DE8C /* ______demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA3937E1D65A52200C1DE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA393871D65A52200C1DE8C /* ______demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA393791D65A52200C1DE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA3935D1D65A52200C1DE8C /* 海通栏目编辑demo */;
+			targetProxy = FDA393781D65A52200C1DE8C /* PBXContainerItemProxy */;
+		};
+		FDA393841D65A52200C1DE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA3935D1D65A52200C1DE8C /* 海通栏目编辑demo */;
+			targetProxy = FDA393831D65A52200C1DE8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA3936A1D65A52200C1DE8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA3936B1D65A52200C1DE8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA3936F1D65A52200C1DE8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA393701D65A52200C1DE8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA393891D65A52200C1DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA3938A1D65A52200C1DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA3938C1D65A52200C1DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "海通栏目编辑demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "li.------demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA3938D1D65A52200C1DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "海通栏目编辑demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "li.------demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDA3938F1D65A52200C1DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "海通栏目编辑demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "li.------demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/海通栏目编辑demo.app/海通栏目编辑demo";
+			};
+			name = Debug;
+		};
+		FDA393901D65A52200C1DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "海通栏目编辑demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "li.------demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/海通栏目编辑demo.app/海通栏目编辑demo";
+			};
+			name = Release;
+		};
+		FDA393921D65A52200C1DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "海通栏目编辑demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "li.------demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "海通栏目编辑demo";
+			};
+			name = Debug;
+		};
+		FDA393931D65A52200C1DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "海通栏目编辑demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "li.------demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "海通栏目编辑demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA393591D65A52200C1DE8C /* Build configuration list for PBXProject "海通栏目编辑demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA393891D65A52200C1DE8C /* Debug */,
+				FDA3938A1D65A52200C1DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA3938B1D65A52200C1DE8C /* Build configuration list for PBXNativeTarget "海通栏目编辑demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA3938C1D65A52200C1DE8C /* Debug */,
+				FDA3938D1D65A52200C1DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA3938E1D65A52200C1DE8C /* Build configuration list for PBXNativeTarget "海通栏目编辑demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA3938F1D65A52200C1DE8C /* Debug */,
+				FDA393901D65A52200C1DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA393911D65A52200C1DE8C /* Build configuration list for PBXNativeTarget "海通栏目编辑demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA393921D65A52200C1DE8C /* Debug */,
+				FDA393931D65A52200C1DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA393561D65A52200C1DE8C /* Project object */;
+}
