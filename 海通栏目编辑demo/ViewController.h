@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(void)loadMyFunViewData:(NSArray *)myFunData hotFunViewData:(NSArray *)hotFunData;
 
 @end
 
