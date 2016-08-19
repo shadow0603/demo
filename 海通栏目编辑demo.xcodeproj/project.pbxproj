@@ -15,6 +15,7 @@
 		FDA393711D65A52200C1DE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA3936F1D65A52200C1DE8C /* LaunchScreen.storyboard */; };
 		FDA3937C1D65A52200C1DE8C /* ______demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA3937B1D65A52200C1DE8C /* ______demoTests.m */; };
 		FDA393871D65A52200C1DE8C /* ______demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA393861D65A52200C1DE8C /* ______demoUITests.m */; };
+		FDA393961D65A57E00C1DE8C /* EditingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA393951D65A57E00C1DE8C /* EditingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FDA393821D65A52200C1DE8C /* 海通栏目编辑demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "海通栏目编辑demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA393861D65A52200C1DE8C /* ______demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______demoUITests.m"; sourceTree = "<group>"; };
 		FDA393881D65A52200C1DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA393941D65A57E00C1DE8C /* EditingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditingView.h; sourceTree = "<group>"; };
+		FDA393951D65A57E00C1DE8C /* EditingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				FDA393651D65A52200C1DE8C /* AppDelegate.m */,
 				FDA393671D65A52200C1DE8C /* ViewController.h */,
 				FDA393681D65A52200C1DE8C /* ViewController.m */,
+				FDA393941D65A57E00C1DE8C /* EditingView.h */,
+				FDA393951D65A57E00C1DE8C /* EditingView.m */,
 				FDA3936A1D65A52200C1DE8C /* Main.storyboard */,
 				FDA3936D1D65A52200C1DE8C /* Assets.xcassets */,
 				FDA3936F1D65A52200C1DE8C /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					FDA3935D1D65A52200C1DE8C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9U83JK9359;
 					};
 					FDA393761D65A52200C1DE8C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -273,6 +279,7 @@
 				FDA393691D65A52200C1DE8C /* ViewController.m in Sources */,
 				FDA393661D65A52200C1DE8C /* AppDelegate.m in Sources */,
 				FDA393631D65A52200C1DE8C /* main.m in Sources */,
+				FDA393961D65A57E00C1DE8C /* EditingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "海通栏目编辑demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "li.------demo";
@@ -426,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "海通栏目编辑demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "li.------demo";
