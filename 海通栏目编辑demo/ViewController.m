@@ -176,12 +176,12 @@
     UIView *leftLineView = [[UIView alloc] initWithFrame:CGRectMake(0, 1/3.*kHeight, 5, 1/3.*kHeight)];
     leftLineView.backgroundColor = [UIColor colorWithRed:59/255. green:92/255. blue:148/255. alpha:1.0f];
     
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(leftLineView.frame.origin.x +leftLineView.frame.size.width + 20, 1/4.*kHeight, kWidth, 1/2.*kHeight)];
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(leftLineView.frame.origin.x +leftLineView.frame.size.width + 20, 1/4.*kHeight, 1.1*kWidth, 1/2.*kHeight)];
     titleLabel.text = title;
     titleLabel.textColor = [UIColor blackColor];
     titleLabel.font = [UIFont systemFontOfSize:15.0f];
     
-    UILabel *detailLabel = [[UILabel alloc] initWithFrame:CGRectMake(titleLabel.frame.origin.x + titleLabel.frame.size.width + 20, 1/4.*kHeight, 200, 1/2.*kHeight)];
+    UILabel *detailLabel = [[UILabel alloc] initWithFrame:CGRectMake(titleLabel.frame.origin.x + titleLabel.frame.size.width + 5, 1/4.*kHeight, 200, 1/2.*kHeight)];
     detailLabel.text = detailTitle;
     detailLabel.textColor = [UIColor lightGrayColor];
     detailLabel.font = [UIFont systemFontOfSize:15.0f];
