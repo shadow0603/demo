@@ -18,7 +18,7 @@
 #define kColumns  4    // 显示的列数
 
 #define kEditButttonTag     1100
-#define kXButtonTag         1200
+#define kXButtonTag         1300
 
 
 @interface ViewController (){
